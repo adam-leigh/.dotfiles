@@ -42,6 +42,10 @@ return {
 				mapping = cmp.mapping.preset.insert({
 					["<C-k>"] = cmp.mapping.select_prev_item(), -- previous suggestion
 					["<C-j>"] = cmp.mapping.select_next_item(), -- next suggestion
+
+					["<C-l>"] = cmp.mapping.select_prev_item(), -- previous suggestion
+					["<C-t>"] = cmp.mapping.select_next_item(), -- next suggestion
+
 					["<Tab>"] = cmp.mapping(function(fallback)
 						if cmp.visible() then
 							cmp.select_next_item()
