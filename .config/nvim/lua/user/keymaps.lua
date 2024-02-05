@@ -360,8 +360,8 @@ vnoremap("H", "^")
 xnoremap("<leader>p", '"_dP')
 
 -- Move selected text up/down in visual mode
-vnoremap("<A-j>", ":m '>+1<CR>gv=gv")
-vnoremap("<A-k>", ":m '<-2<CR>gv=gv")
+vnoremap("<J>", ":m '>+1<CR>gv=gv")
+vnoremap("<K>", ":m '<-2<CR>gv=gv")
 
 -- Reselect the last visual selection
 xnoremap("<<", function()
