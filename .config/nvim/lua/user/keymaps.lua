@@ -116,6 +116,7 @@ nnoremap("U", "<C-r>")
 
 -- Turn off highlighted results
 nnoremap("<leader>no", "<cmd>noh<cr>")
+nnoremap("<leader>nh", "<cmd>noh<cr>")
 
 -- Diagnostics
 
