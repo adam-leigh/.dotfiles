@@ -215,6 +215,26 @@
                         },
                         {
                             "from": {
+                                "key_code": "delete_or_backspace"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "grave_accent_and_tilde"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "left_control"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "backslash"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
                                 "key_code": "delete_forward"
                             },
                             "to": [
@@ -225,11 +245,21 @@
                         },
                         {
                             "from": {
-                                "key_code": "delete_or_backspace"
+                                "key_code": "up_arrow"
                             },
                             "to": [
                                 {
-                                    "key_code": "grave_accent_and_tilde"
+                                    "key_code": "right_shift"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "right_arrow"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "right_option"
                                 }
                             ]
                         },
@@ -250,36 +280,6 @@
                             "to": [
                                 {
                                     "consumer_key_code": "volume_decrement"
-                                }
-                            ]
-                        },
-                        {
-                            "from": {
-                                "key_code": "left_control"
-                            },
-                            "to": [
-                                {
-                                    "key_code": "backslash"
-                                }
-                            ]
-                        },
-                        {
-                            "from": {
-                                "key_code": "right_arrow"
-                            },
-                            "to": [
-                                {
-                                    "key_code": "right_option"
-                                }
-                            ]
-                        },
-                        {
-                            "from": {
-                                "key_code": "up_arrow"
-                            },
-                            "to": [
-                                {
-                                    "key_code": "right_shift"
                                 }
                             ]
                         }
