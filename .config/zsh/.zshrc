@@ -1,5 +1,7 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/omerhamerman/.oh-my-zsh
+export ZSH=/Users/leigh/.oh-my-zsh
+export ZDOTDIR=$HOME/.config/zsh
+
 # Reevaluate the prompt string each time it's displaying a prompt
 setopt prompt_subst
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
@@ -8,6 +10,8 @@ autoload -Uz compinit
 compinit
 source <(kubectl completion zsh)
 complete -C '/usr/local/bin/aws_completer' aws
+
+# ZSH_THEME="powerlevel10k/powerlevel10k"
 
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 bindkey '^w' autosuggest-execute
@@ -28,12 +32,19 @@ export EDITOR=/opt/homebrew/bin/nvim
 alias la=tree
 alias cat=bat
 
+# Vim
+alias vim="nvim"
+alias v"nvim"
+alias nv="nvim"
+alias neo="nvim"
+
 # Git
+alias lz="lazygit"
 alias gc="git commit -m"
 alias gca="git commit -a -m"
 alias gp="git push origin HEAD"
 alias gpu="git pull origin"
-alias gst="git status"
+alias gs="git status"
 alias glog="git log --graph --topo-order --pretty='%w(100,0,6)%C(yellow)%h%C(bold)%C(black)%d %C(cyan)%ar %C(green)%an%n%C(bold)%C(white)%s %N' --abbrev-commit"
 alias gdiff="git diff"
 alias gco="git checkout"
@@ -60,7 +71,7 @@ alias .....="cd ../../../.."
 alias ......="cd ../../../../.."
 
 # GO
-export GOPATH='/Users/omerhamerman/go'
+export GOPATH='/Users/leigh/go'
 
 # VIM
 alias v="/opt/homebrew/bin/nvim"
@@ -68,7 +79,7 @@ alias v="/opt/homebrew/bin/nvim"
 # Nmap
 alias nm="nmap -sC -sV -oN nmap"
 
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/omer/.vimpkg/bin:${GOPATH}/bin:/Users/omerhamerman/.cargo/bin
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/leigh/.vimpkg/bin:${GOPATH}/bin:/Users/leigh/.cargo/bin
 
 alias cl='clear'
 
