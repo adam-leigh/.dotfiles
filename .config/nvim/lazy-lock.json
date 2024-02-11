@@ -44,5 +44,6 @@
   "vim-illuminate": { "branch": "master", "commit": "3bd2ab64b5d63b29e05691e624927e5ebbf0fb86" },
   "vim-maximizer": { "branch": "master", "commit": "2e54952fe91e140a2e69f35f22131219fcd9c5f1" },
   "vim-surround": { "branch": "master", "commit": "3d188ed2113431cf8dac77be61b842acb64433d9" },
+  "vimtex": { "branch": "master", "commit": "cb0fd1b437a6b3797ed4dfd01a0aa0ae97b23871" },
   "wilder.nvim": { "branch": "master", "commit": "679f348dc90d80ff9ba0e7c470c40a4d038dcecf" }
 }
