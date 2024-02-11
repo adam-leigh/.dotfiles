@@ -1,0 +1,15 @@
+karabiner
+chrysalis
+adobe acrobat
+highlights
+obsidian
+extensions - raindrop, onetab, vimium
+firefox
+zoom
+oh my git
+raycast
+dbeaver
+keycastr
+pika
+iterm
+vscode insiders
