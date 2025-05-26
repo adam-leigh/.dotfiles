@@ -1,0 +1,13 @@
+alias ..="cd .."
+alias cl=clear
+alias v=nvim
+alias vim=nvim
+alias cd=z
+
+# eza aliases (modern ls replacement)
+alias ls="eza --icons=always"
+alias l="eza -la --icons=always"
+alias la="eza -a --icons=always"
+alias ll="eza -l --icons=always"
+alias lt="eza --tree --icons=always"
+alias l.="eza -a | grep '^\.'"
